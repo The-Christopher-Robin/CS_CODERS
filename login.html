@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Hotel Website | Gallery </title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	</head>
+	<script>
+		// When the user clicks on <div>, open the popup
+		function myFunction() {
+			var x = document.getElementById("myPass").value;
+			var y = document.getElementById("myUser").value;
+			
+			if (y != "" && x != "")
+			{
+				if (x=="cs123")
+				{
+					alert("Successful login");
+					window.open("contact.html");
+				}
+				else
+				{
+					alert("INVALID ENTRY!!");
+				}
+			}
+			else
+			{
+				alert("Do Not Leave Fields Empty!");
+			}
+
+			
+		}
+	</script>
+	<body>
+		<div class="form_logo">
+			<img id ="form_logo_id"src="images/logo2.png" title="logo" />
+		</div>
+		<div class ="Login-page">
+			<div class ="form">
+				<form class="register-form">
+					<input type="text" placeholder="USN" id="myUser"/>   
+					<input type="password" placeholder="Password" id="myPass"/>  
+					<button onclick="myFunction();"> Login </button>
+				</form>      
+		
+				<form class= "login-form">
+					<input type="text" placeholder="Username"/>
+					<input type="password" placeholder="Password"/>
+					<button>Login</button>
+		  			<p> class="message">Not Registered<a href= "#"> Registered</a>
+		  
+		  			</p>
+				</form>
+		   
+		 	</div>
+		</div>
+	</body>
+</html>
+
