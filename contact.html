@@ -1,0 +1,173 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Hotel Website | Gallery </title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+</head>
+<script>
+	var a;
+	// When the user clicks on <div>, open the popup
+	function myFunction(x)
+	{
+		a = document.getElementById("myPass").value;
+		// var y = document.getElementById("myUser").value;
+		// a = x;
+		alert(a)
+	}
+	function submit(x)
+	{
+		alert(a);
+	}
+	
+	
+</script>
+<body>
+	<!---start-Wrap--->
+	<!---start-header--->
+	<div class="header">
+		<div class="wrap">
+			<div class="header-top">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo2.png" title="logo" /></a>
+				</div>
+				<div class="contact-info">
+					<p class="phone">Call us : <a href="#">980XXXXXXX</a></p>
+					<p class="gpa">Location : <a href="https://goo.gl/maps/4AYeaa1p3kynQWYy9">View map</a></p>
+					<p class="code">BROUGHT TO YOU BY:<a href="https://github.com/The-Christopher-Robin/CS_CODERS"> CS
+							Coders</a></p>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<div class="header-top-nav">
+		</div>
+	</div>
+	<!---End-header--->
+	<div class="clear"> </div>
+	<!---start-content----->
+	<div class="content">
+		<div class="wrap">
+			<!-------start-contatct------>
+			<div class="contact" id="contact-left">
+				<div class="section group">
+					<div class="col span_1_of_3">
+						<div class="contact_info">
+
+						</div>
+						<div class="company_address">
+							<h3>College Information :</h3>
+							<p>Address:</p>
+							<p>MSR Nagar, MSRIT Post Bangalore,</p>
+							<p>PIN- 560 054, Karnataka, INDIA</p>
+							<p>Phone:(061) 5XXXXX</p>
+							<p>Fax: (000) 00000000</p>
+							<p>Email: hostel@msrit.edu<span></span></p>
+						</div>
+					</div>
+
+					<div class="col span_2_of_3" id="contact-center">
+						<div class="contact-form">
+							<h3>Raise a complaint / Inquiry / Feedback</h3>
+							<form method="post">
+								<div>
+									<span><label>FULL NAME</label></span>
+									<span><input name="userName" type="text" class="textbox"></span>
+								</div>
+								<div>
+									<span><label>USN</label></span>
+									<span><input name="userEmail" type="text" class="textbox"></span>
+								</div>
+								<div>
+									<span><label>MOBILE NUMBER</label></span>
+									<span><input name="userPhone" type="text" class="textbox"></span>
+								</div>
+								<div class="dropdown">
+									<button class="dropbtn">Select One</button>
+									<div class="dropdown-content">
+										<a href="javascript:myFunction('Complaint')">Complaint</a>
+										<a href="javascript:myFunction('Query')">Query</a>
+										<a href="javascript:myFunction('Feedback')">Feedback</a>
+									</div>
+								</div>
+								<div class="dropdown" id="drop-btn1">
+									<button class="dropbtn">Select One</button>
+									<div class="dropdown-content">
+										<a href="javascript:someFunction()">Warden</a>
+										<a href="javascript:someFunction()">HOD</a>
+										<a href="#">Chief Proctor</a>
+										<a href="#">Mess</a>
+									</div>
+								</div>
+								<div>
+									<span><label>SUBJECT</label></span>
+									<span><textarea name="userMsg"> </textarea></span>
+								</div>
+								<div>
+									<span><input type="submit" value="Submit" onclick="submit();"></span>
+								</div>
+							</form>
+						</div>
+						<form action="">
+							<div class="food-drop">
+								<label for="cars">Today's Menu:</label>
+								<br>
+								<select name="cars" id="cars">
+									<option value="dosa">Dosa</option>
+									<option value="battura">Chole Battura</option>
+									<option value="idlies">Idlies</option>
+									<option value="cereal">Cereal</option>
+								</select>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-------start-contatct------>
+		</div>
+		<div>
+			<form action="#">
+				<a href="https://msrmh.com/"><button id="contactB1" type="button">Hospital Hotline</button></a>
+			</form>
+		</div>
+		<br>
+		<div>
+			<form action="#">
+				<a href="https://www.msrit.edu/support/proctorial-system.html"><button id="contactB2"
+						type="button">Contact Proctor</button></a>
+			</form>
+		</div>
+		<div class="clear"> </div>
+		<div class="boxs">
+			<div class="wrap">
+				<div class="box">
+
+				</div>
+
+				<div class="box">
+
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<!---start-box---->
+		</div>
+		<!---start-copy-Right----->
+		<div class="copy-tight">
+			<p>THIS PROJECT IS BROUGHT TO YOU BY <a href="https://github.com/The-Christopher-Robin/CS_CODERS">CS
+					CODERS</a></p>
+		</div>
+		<!---End-copy-Right----->
+	</div>
+	<!---End-content----->
+	</div>
+	<!---End-Wrap--->
+</body>
+
+</html>
